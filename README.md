@@ -4,10 +4,11 @@ This synthetic dataset is designed to approximate the structure and statistical 
 
 # Installation
 ```
+pip install numpy pandas scikit-learn
 git clone https://github.com/GlobalHealthML-UNIHID/Synthetic_Dataset.git
 cd Synthetic_Dataset
-
 ```
+
 
 # Data Generation Technique
 

@@ -23,4 +23,4 @@ Returns biomarker matrix X, metadata, and ground-truth variables. Contains no ex
 **2. scene files:** Defines a fully reproducible synthetic population.Specifies sample size, seed, region/sex distributions, and latent structure. Configures biomarker loadings, shifts, and noise parameters. Optionally defines explicit ground-truth cluster structure. Provides the complete configuration for generator.py.
 <img width="679" height="718" alt="image" src="https://github.com/user-attachments/assets/0bf5b63a-3760-477f-aa53-dd46b60cc86d" />
 
-
+**3. Run Scene:** executes a complete synthetic experiment from a scene configuration. It loads a scene module, generates the dataset, saves outputs, and optionally runs the bootstrapped clustering pipeline. 

@@ -11,6 +11,10 @@ Value = Baseline Value + Latent effect + Region shift + Sex shift  + Noise
 
 with some terms set to zero where applicable. 
 
+ex:
+<img width="1001" height="159" alt="image" src="https://github.com/user-attachments/assets/d4dd5090-00e1-4917-b1a6-f6390d704077" />
+
+
 # Repository Structure
 
 **1. generator.py:**  Implements the statistical data-generating process. Applies latent factor loadings, region/sex shifts, and noise. Accepts a scene configuration as input.

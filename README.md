@@ -40,5 +40,12 @@ An example scene configuration has been provided so that the different preproces
 cd Synthetic_data_set
 python -m scenes.run_scene --scene scenes.scene_example
 ```
+To Generate data + cluster:
+``` python -m scenes.run_scene --scene scenes.scene_example
+```
+   
+To generate data only:
+``` python -m scenes.run_scene --scene scenes.scene_example --no-cluster
+```
 
 

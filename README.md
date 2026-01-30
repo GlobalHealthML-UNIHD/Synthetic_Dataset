@@ -31,3 +31,14 @@ Returns biomarker matrix X, metadata, and ground-truth variables. Contains no ex
 <img width="679" height="718" alt="image" src="https://github.com/user-attachments/assets/0bf5b63a-3760-477f-aa53-dd46b60cc86d" />
 
 **3. Run Scene:** executes a complete synthetic experiment from a scene configuration. It loads a scene module, generates the dataset, saves outputs, and optionally runs the bootstrapped clustering pipeline. 
+
+# Demo files
+
+An example scene configuration has been provided so that the different preprocessing choices can be visualised via the clustering outputs.
+
+```
+cd Synthetic_data_set
+python -m scenes.run_scene --scene scenes.scene_example
+```
+
+
